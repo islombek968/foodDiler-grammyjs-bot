@@ -1,7 +1,7 @@
 import { Bot } from "grammy";
 import { foodTypeKey, mainKey, orderKey } from "./keys";
 
-const bot = new Bot("6172978856:AAGQ7UF1erQ6pPnF7qIxLGPORiFoxduKHFU"); // <-- put your bot token between the ""
+const bot = new Bot("6172978856:AAHYUlTBoP62aG2jbgUH0iLit_rpUcRPak8"); // <-- put your bot token between the ""
 
 bot.command("start", (ctx) =>
   ctx.reply("Assalomu alaykum, Biz orqzli buyurtma qilishingiz mumkin", {
