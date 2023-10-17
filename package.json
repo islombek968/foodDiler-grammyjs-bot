@@ -1,0 +1,20 @@
+{
+  "name": "bot-grammy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx tsc",
+    "dev": "nodemon ./dist/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "grammy": "^1.19.2"
+  }
+}
